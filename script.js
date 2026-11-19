@@ -139,20 +139,20 @@ document.addEventListener("DOMContentLoaded", function() {
     const noiDungText = `ĐIỆN CƠ SONG TOÀN - ĐƠN MỚI!\nKhách: ${ten}\nSĐT: ${sdt}\nLoại: ${loai}\nChi tiết: ${chitiet.replace(/<br>/g, ' ')}`;
     const linkZalo = `https://zalo.me{sdtCuaBa}?text=${encodeURIComponent(noiDungText)}`;
     alert('Đã gửi thành công! Hệ thống sẽ mở Zalo để báo cho bạn!');
-    window.open(linkZalo, '_blank');
+    window.open(linkZalo, '_blank')
   }
-  const formMuaHang = document.getElementById('formMuaHang'); 
-  if (formMuaHang) { 
-    formMuaHang.addEventListener('submit', function(e) { 
-      e.preventDefault(); 
-      const title = document.getElementById('productTitle').textContent; 
-      const ten = document.getElementById('txtTenMua').value.trim(); 
-      const sdt = document.getElementById('txtSdtMua').value.trim(); 
-      saveBooking(title, ten, sdt, "Đặt mua sản phẩm"); 
-      formMuaHang.reset(); 
-      renderProductData(); 
-    }); 
-  } 
+  const formMuaHang = document.getElementById('formMuaHang');
+  if (formMuaHang) {
+    formMuaHang.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const title = document.getElementById('productTitle').textContent;
+      const ten = document.getElementById('txtTenMua').value.trim();
+      const sdt = document.getElementById('txtSdtMua').value.trim();
+      saveBooking(title, ten, sdt, "Đặt mua sản phẩm");
+      formMuaHang.reset();
+      renderProductData();
+    });
+  }
   const formSuaChua = document.getElementById('formSuaChua'); 
   if (formSuaChua) { 
     formSuaChua.addEventListener('submit', function(e) { 
