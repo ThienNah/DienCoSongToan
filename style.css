@@ -1,5 +1,5 @@
 body { 
-    background: linear-gradient(300deg, rgba(171, 163, 217),rgba(250, 127, 127)f, rgba(81, 81, 240));
+    background: linear-gradient(300deg, rgba(170, 165, 215),rgba(250, 125, 125), rgba(80, 80, 240));
     padding: 20px; 
     position: relative; 
     font-family: Arial, sans-serif;
@@ -61,7 +61,7 @@ img {
 }
 .btn-san-pham:hover { 
     transform: translateY(-2px); 
-    box-shadow: 0 6px 20px rgba(48, 48, 48, 0.6); 
+    box-shadow: 0 6px 20px rgba(50, 50, 50, 0.6); 
 }
 .dropdown-list { 
     display: none; 
@@ -81,7 +81,7 @@ img {
 .dropdown-item { 
     display: block; 
     padding: 12px 20px; 
-    color: rgba(51, 51, 51); 
+    color: rgba(50, 50, 50); 
     font-size: 16px; 
     font-weight: 500; 
     text-decoration: none; 
@@ -117,7 +117,7 @@ img {
     max-height: 350px; 
     overflow-y: auto; 
     background: rgba(0, 0, 0); 
-    border: 1px solid rgba(43, 43, 43); 
+    border: 1px solid rgba(45, 45, 45); 
     border-radius: 12px; 
     padding: 8px 0; 
     z-index: 999999; 
@@ -322,7 +322,7 @@ img {
     background-color: rgba(255, 255, 255, 0.133);
 }
 .btn-delete {
-    background-color: rgba(255, 77, 77);
+    background-color: rgba(255, 75, 75);
     color: rgba(255, 255, 255);
     border: none;
     padding: 6px 12px;
@@ -331,7 +331,7 @@ img {
     font-weight: bold;
 }
 .btn-delete-all {
-    background-color: rgba(255, 51, 51);
+    background-color: rgba(255, 50, 50);
     color: rgba(255, 255, 255);
     border: none;
     padding: 12px 20px;
@@ -346,7 +346,7 @@ html, body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: linear-gradient(300deg, rgba(171, 163, 217),rgba(250, 127, 127), rgba(81, 81, 240));
+    background: linear-gradient(300deg, rgba(170, 165, 215),rgba(250, 125, 125), rgba(80, 80, 240));
     background-attachment: fixed !important;
     background-size: cover !important;
 }
@@ -361,7 +361,7 @@ html, body {
     background: rgba(150, 150, 150, 0.439) !important; 
     backdrop-filter: blur(12px) !important;
     -webkit-backdrop-filter: blur(12px) !important;
-    border: 1px solid #494949 !important;
+    border: 1px solid rgba(75, 75, 75) !important;
     border-radius: 50px !important; 
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.047) !important;
 }
