@@ -1,13 +1,13 @@
 body { 
-    background: linear-gradient(300deg, #aba3d9, #fa7f7f, #5151f0); 
+    background: linear-gradient(300deg, rgba(171, 163, 217),rgba(250, 127, 127)f, rgba(81, 81, 240));
     padding: 20px; 
     position: relative; 
     font-family: Arial, sans-serif;
-    color: #ffffff;
+    color: rgba(255, 255, 255);
 }
 h1 { 
     text-align: center; 
-    color: #ffffff; 
+    color: rgba(255, 255, 255); 
     font-size: 40px; 
     margin: 30px auto; 
     display: block;
@@ -15,12 +15,12 @@ h1 {
 }
 p { 
     text-align: center; 
-    color: #ffffff; 
+    color: rgba(255, 255, 255); 
     font-size: 24px; 
 }
 div {
     text-align: center;
-    color: #000000;
+    color: rgba(0, 0, 0);
     font-size: 14px
 }
 img { 
@@ -37,7 +37,7 @@ img {
     justify-content: space-between; 
     align-items: center; 
     padding: 20px; 
-    background: #00000033; 
+    background: rgba(0, 0, 0, 0.2); 
     border-radius: 15px; 
     margin-bottom: 30px; 
     position: relative; 
@@ -47,31 +47,31 @@ img {
     position: relative; 
 }
 .btn-san-pham { 
-    background: #ffffff; 
-    color: #000000; 
+    background: rgba(255, 255, 255); 
+    color: rgba(0, 0, 0); 
     padding: 12px 24px; 
     font-size: 18px; 
     font-weight: bold; 
     border: none; 
     border-radius: 30px; 
     cursor: pointer; 
-    box-shadow: 0 4px 15px #ffffff66; 
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.4); 
     transition: all 0.5s ease; 
     text-transform: uppercase; 
 }
 .btn-san-pham:hover { 
     transform: translateY(-2px); 
-    box-shadow: 0 6px 20px #30303099; 
+    box-shadow: 0 6px 20px rgba(48, 48, 48, 0.6); 
 }
 .dropdown-list { 
     display: none; 
     position: absolute; 
     top: 140%; 
     left: 0; 
-    background-color: #ffffff; 
+    background-color: rgba(255, 255, 255); 
     width: 280px; 
     border-radius: 12px; 
-    box-shadow: 0 10px 30px #00000033; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
     z-index: 999; 
     padding: 10px 0; 
 }
@@ -81,7 +81,7 @@ img {
 .dropdown-item { 
     display: block; 
     padding: 12px 20px; 
-    color: #333333; 
+    color: rgba(51, 51, 51); 
     font-size: 16px; 
     font-weight: 500; 
     text-decoration: none; 
@@ -90,7 +90,7 @@ img {
     text-align: left;
 }
 .dropdown-item:hover { 
-    background-color: #f5f5f5; 
+    background-color: rgba(245, 245, 245); 
 }
 .search-container { 
     position: relative; 
@@ -99,15 +99,15 @@ img {
     width: 250px; 
     padding: 12px 20px; 
     font-size: 18px; 
-    border: 2px solid #ffffff; 
+    border: 2px solid rgba(255, 255, 255); 
     border-radius: 25px; 
     outline: none; 
-    background-color: #ffffff; 
+    background-color: rgba(255, 255, 255); 
     transition: all 0.3s; 
 }
 #searchInput:focus { 
-    border-color: #000000; 
-    box-shadow: 0 0 10px #00000033; 
+    border-color: rgba(0, 0, 0); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 .search-dropdown { 
     position: absolute; 
@@ -116,17 +116,17 @@ img {
     width: 280px; 
     max-height: 350px; 
     overflow-y: auto; 
-    background: #000000; 
-    border: 1px solid #2b2b2b; 
+    background: rgba(0, 0, 0); 
+    border: 1px solid rgba(43, 43, 43); 
     border-radius: 12px; 
     padding: 8px 0; 
     z-index: 999999; 
-    box-shadow: 0 10px 25px #00000080; 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.502); 
     display: none;
 }
 .search-item { 
     display: block; 
-    color: #ffffff !important; 
+    color: rgba(255, 255, 255) !important; 
     font-size: 16px; 
     padding: 12px 20px; 
     text-decoration: none; 
@@ -134,9 +134,9 @@ img {
     transition: all 0.2s ease; 
 }
 .search-item:hover { 
-    background: #ffffff22; 
+    background: rgba(255, 255, 255, 0.133); 
     padding-left: 25px; 
-    color: #ffffff !important;
+    color: rgba(255, 255, 255) !important;
 }
 .btn-back-box { 
     max-width: 600px; 
@@ -146,13 +146,13 @@ img {
 }
 .btn-back { 
     display: inline-block; 
-    color: #ffffff; 
+    color: rgba(255, 255, 255); 
     text-decoration: none; 
     font-size: 18px; 
     font-weight: bold; 
-    background-color: #00000033; 
+    background-color: rgba(0, 0, 0, 0.2); 
     padding: 10px 20px; 
-    border: 2px solid #ffffff; 
+    border: 2px solid rgba(255, 255, 255); 
     border-radius: 25px; 
     transition: transform 0.2s; 
 }
@@ -160,8 +160,8 @@ img {
     transform: translateX(-5px); 
 }
 .detail-box { 
-    background-color: #00000033; 
-    border: 2px solid #ffffff; 
+    background-color: rgba(0, 0, 0, 0.2); 
+    border: 2px solid rgba(255, 255, 255); 
     border-radius: 20px; 
     padding: 25px; 
     margin: 20px auto; 
@@ -171,7 +171,7 @@ img {
 }
 .detail-box h2 { 
     text-align: center; 
-    color: #ffffff; 
+    color: rgba(255, 255, 255); 
     margin-top: 0; 
     font-size: 28px; 
 }
@@ -179,11 +179,11 @@ img {
     font-size: 20px; 
     text-align: left; 
     margin: 12px 0; 
-    color: #ffffff;
+    color: rgba(255, 255, 255);
 }
 .contact-box { 
-    background-color: #00000033; 
-    border: 2px solid #ffffff; 
+    background-color: rgba(0, 0, 0, 0.2); 
+    border: 2px solid rgba(255, 255, 255); 
     border-radius: 20px; 
     padding: 20px; 
     margin: 30px auto; 
@@ -193,7 +193,7 @@ img {
 }
 .contact-box p { 
     font-size: 20px; 
-    color: #ffffff; 
+    color: rgba(255, 255, 255); 
     margin: 10px 0; 
     text-align: center; 
 }
@@ -269,18 +269,18 @@ img {
 .booking-box h2 {
     font-size: 26px;
     margin-bottom: 20px;
-    color: #ffffff;
+    color: rgba(255, 255, 255);
 }
 .booking-input {
     width: 100%;
     padding: 12px 20px;
     margin: 10px 0;
     font-size: 18px;
-    border: 2px solid #ffffff;
+    border: 2px solid rgba(255, 255, 255);
     border-radius: 25px;
     outline: none;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: rgba(255, 255, 255);
+    color: rgba(0, 0, 0);
     box-sizing: border-box;
 }
 .text-area {
@@ -291,8 +291,8 @@ img {
 }
 .btn-submit {
     width: 100%;
-    background: #ffffff;
-    color: #000000;
+    background: rgba(255, 255, 255);
+    color: rgba(0, 0, 0);
     padding: 12px 0;
     font-size: 20px;
     font-weight: bold;
@@ -310,20 +310,20 @@ img {
     border-collapse: collapse;
     margin-top: 15px;
     font-size: 16px;
-    background-color: #00000033;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .admin-table th, .admin-table td {
-    border: 1px solid #ffffff;
+    border: 1px solid rgba(255, 255, 255);
     padding: 12px;
     text-align: left;
-    color: #ffffff;
+    color: rgba(255, 255, 255);
 }
 .admin-table th {
-    background-color: #ffffff22;
+    background-color: rgba(255, 255, 255, 0.133);
 }
 .btn-delete {
-    background-color: #ff4d4d;
-    color: #ffffff;
+    background-color: rgba(255, 77, 77);
+    color: rgba(255, 255, 255);
     border: none;
     padding: 6px 12px;
     border-radius: 6px;
@@ -331,8 +331,8 @@ img {
     font-weight: bold;
 }
 .btn-delete-all {
-    background-color: #ff3333;
-    color: #ffffff;
+    background-color: rgba(255, 51, 51);
+    color: rgba(255, 255, 255);
     border: none;
     padding: 12px 20px;
     border-radius: 25px;
@@ -346,7 +346,7 @@ html, body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: linear-gradient(300deg, #aba3d9, #fa7f7f, #5151f0) !important;
+    background: linear-gradient(300deg, rgba(171, 163, 217),rgba(250, 127, 127), rgba(81, 81, 240));
     background-attachment: fixed !important;
     background-size: cover !important;
 }
@@ -358,23 +358,23 @@ html, body {
     margin: 20px auto !important;
     max-width: 1200px;
     width: 95%;
-    background: #96969670 !important; 
+    background: rgba(150, 150, 150, 0.439) !important; 
     backdrop-filter: blur(12px) !important;
     -webkit-backdrop-filter: blur(12px) !important;
     border: 1px solid #494949 !important;
     border-radius: 50px !important; 
-    box-shadow: 0 8px 32px 0 #0000000c !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.047) !important;
 }
 .search-container {
   display: block !important;
   margin: 0 !important;
 }
-html:has([src*="admin=true"]) .btn-back-box,
-body:has(~ * [href*="admin=true"]) .btn-back-box {
+html:has([src *= "admin = true"]) .btn-back-box,
+body:has(~ * [href *= "admin = true"]) .btn-back-box {
     display: none !important;
 }
-body:has(#boxAdmin[style*="block"]) .shop-header,
-body:has(#boxAdmin:not([style*="none"])) .shop-header {
+body:has(#boxAdmin[style *= "block"]) .shop-header,
+body:has(#boxAdmin:not([style *= "none"])) .shop-header {
     display: none !important;
 }
 .admin-box-xinh {
